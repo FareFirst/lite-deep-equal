@@ -1,5 +1,7 @@
 # lite-deep-equal
 
+[![Build Status](https://github.com/FareFirst/lite-deep-equal/workflows/build/badge.svg?branch=master)](https://github.com/FareFirst/lite-deep-equal/actions?query=workflow%3A%22build%22+branch%3Amaster)
+
 A simple lightweight alternative for [deep-equal](https://www.npmjs.com/package/deep-equal)
 
 This package is based on https://stackoverflow.com/a/32922084/1866804
