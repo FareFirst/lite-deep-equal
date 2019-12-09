@@ -43,7 +43,7 @@ console.dir(
 ### deepEqual(a, b, opts)
 
 ```js
-var deepEqual = require('deep-equal')
+const deepEqual = require('deep-equal')
 ```
 Compare objects a and b, returning whether they are equal according to a recursive equality algorithm.
 
