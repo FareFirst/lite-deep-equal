@@ -104,5 +104,6 @@ dist
 .tern-port
 
 .DS_Store
-
-dist
+*.spec.js
+.*
+!.npmignore
