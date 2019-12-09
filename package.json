@@ -1,8 +1,8 @@
 {
   "name": "lite-deep-equal",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple lightweight alternative for npm deep-equal package",
-  "main": ".build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel index.js --out-dir dist --presets=@babel/preset-env",
     "test": "jest --coverage",
