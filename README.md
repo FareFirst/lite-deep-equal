@@ -17,10 +17,10 @@ npm install lite-deep-equal
 ## Usage
 
 ```js
-const equal = require('lite-deep-equal');
+const deepEqual = require('lite-deep-equal');
 
 console.dir(
-  equal(
+  deepEqual(
     { a: [2, 3], b: [4] },
     { a: [2, 3], b: [4] },
   ),
@@ -30,7 +30,7 @@ console.dir(
 // => true
 
 console.dir(
-  equal(
+  deepEqual(
     { x: 5, y: [6] },
     { x: 5, y: 6 },
   ),
@@ -40,7 +40,7 @@ console.dir(
 // => false
 
 console.dir(
-  equal(
+  deepEqual(
     {
       a: [2, 3],
       c: {
@@ -68,7 +68,7 @@ console.dir(
 ### deepEqual(a, b, opts)
 
 ```js
-const deepEqual = require('deep-equal')
+const deepEqual = require('lite-deep-equal');
 ```
 Compare objects a and b, returning whether they are equal according to a recursive equality algorithm.
 
