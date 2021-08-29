@@ -1,6 +1,6 @@
 {
   "name": "lite-deep-equal",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple lightweight alternative for npm deep-equal package",
   "main": "dist/index.js",
   "scripts": {
@@ -32,13 +32,13 @@
   },
   "homepage": "https://github.com/FareFirst/lite-deep-equal#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.8.2",
-    "jest": "^25.1.0"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^25.5.4"
   }
 }
